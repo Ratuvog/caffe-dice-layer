@@ -11,8 +11,8 @@
   bottom: "predictions"
   bottom: "groundtruth"
   top: "dice"
-  exclude { stage: "deploy" }
-}`
+}
+`
 
 ### Features
 1. Forward pass layer used for comparing the similarity of two samples.
